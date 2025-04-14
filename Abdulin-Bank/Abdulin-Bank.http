@@ -1,0 +1,6 @@
+@Abdulin_Bank_HostAddress = http://localhost:5272
+
+GET {{Abdulin_Bank_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
