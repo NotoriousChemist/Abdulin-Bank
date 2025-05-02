@@ -20,6 +20,8 @@ public class User
     public string Email { get; set; }
 
     public List<BankAccount> BankAccounts { get; set; } = new List<BankAccount>();
+    
+    public int jjjjjj { get; set; }
 
     public string FullName => $"{LastName} {FirstName} {Patronymic}".Trim();
 }
