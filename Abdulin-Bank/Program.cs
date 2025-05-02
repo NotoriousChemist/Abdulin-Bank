@@ -33,7 +33,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-var 1 = new User;
+var 1 = new UserABC;
 
 app.Run();
 

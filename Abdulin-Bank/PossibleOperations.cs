@@ -2,15 +2,15 @@ public class PossibleOperations
 {
     public static void AddUser()
     {
-        var user = new User
+        var user = new UserABC
     }
 
-    public static void ChangeUser(User user)
+    public static void ChangeUser(UserABC userAbc)
     {
 
     }
 
-    public static void DeleteUser(User user)
+    public static void DeleteUser(UserABC userAbc)
     {
 
     }
