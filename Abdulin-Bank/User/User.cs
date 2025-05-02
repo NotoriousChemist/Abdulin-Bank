@@ -21,5 +21,7 @@ public class User
 
     public List<BankAccount> BankAccounts { get; set; } = new List<BankAccount>();
 
+    public int asdf123 { get; set; }
+    
     public string FullName => $"{LastName} {FirstName} {Patronymic}".Trim();
 }
